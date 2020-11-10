@@ -9,11 +9,15 @@ public class OuterClass {
 	static {}
 	
 	public static class InnerClass1{
-		
+		public static void foo1() {
+			System.out.println("static Class");
+		}
 	}
 	
 	public class InnerClass2{
-		
+		public void foo2() {
+			System.out.println("no-static Class");
+		}
 	}
 
 }

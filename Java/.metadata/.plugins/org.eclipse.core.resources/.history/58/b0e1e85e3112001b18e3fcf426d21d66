@@ -1,0 +1,32 @@
+package com.mercury.algorithm;
+
+public class AddTwoNumber {
+	
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+		
+		
+		return  null;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AddTwoNumber atn=new AddTwoNumber();
+		ListNode l1=new ListNode(7);
+		l1.next=new ListNode(8);
+		
+		ListNode l2 = new ListNode(8);
+		l1.print(l1);
+//		while (l1!=null) {
+//			System.out.print(l1.val);
+//			l1=l1.next;
+//			if (l1!=null) {
+//				System.out.print(",");
+//			} else {
+//				System.out.println();
+//			}
+//		}
+		
+
+	}
+
+}
