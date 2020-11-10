@@ -1,7 +1,7 @@
 package com.mercury.fileUploadDownload.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,13 +13,14 @@ import com.mercury.fileUploadDownload.service.FileStorageService;
 
 @RestController
 public class FileController {
+
 	@Autowired
     private FileStorageService fileStorageService;
 	
-	@GetMapping("/test") 
-	public void  getHelloWorld() {
-		System.err.println("Hello World");
-	}
+//	@GetMapping("/test") 
+//	public void  getHelloWorld() {
+//		System.err.println("Hello World");
+//	}
     
     @PostMapping("/uploadFile")
     public UploadFileResponse uploadFile(@RequestParam("file") MultipartFile file) {
@@ -31,7 +32,10 @@ public class FileController {
                 .toUriString();
 
         return new UploadFileResponse(fileName, fileDownloadUri,
-                file.getContentType(), file.getSize());
+                file.getContentType(), file.getSize(),true);
     }
+    
+
+    
 	
 }

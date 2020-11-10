@@ -4,13 +4,15 @@ public class UploadFileResponse {
 	private String fileName;
     private String fileDownloadUri;
     private String fileType;
+    private boolean success;
     private long size;
 
-    public UploadFileResponse(String fileName, String fileDownloadUri, String fileType, long size) {
+    public UploadFileResponse(String fileName, String fileDownloadUri, String fileType, long size, boolean success) {
         this.fileName = fileName;
         this.fileDownloadUri = fileDownloadUri;
         this.fileType = fileType;
         this.size = size;
+        this.success=success;
     }
 
 	public String getFileName() {
@@ -45,11 +47,21 @@ public class UploadFileResponse {
 		this.size = size;
 	}
 
+	public boolean isSuccess() {
+		return success;
+	}
+
+	public void setSuccess(boolean success) {
+		this.success = success;
+	}
+
 	@Override
 	public String toString() {
 		return "UploadFileResponse [fileName=" + fileName + ", fileDownloadUri=" + fileDownloadUri + ", fileType="
-				+ fileType + ", size=" + size + "]";
+				+ fileType + ", success=" + success + ", size=" + size + "]";
 	}
+
+	
     
     
     
