@@ -1,63 +1,68 @@
 package com.wisdom.excel.model;
 
 public class Course {
-	private long id;
-	
-	private String title;
-	
-	private String description;
-	
+	private String id;
+	private String course_code;
+	private String course_title;
+	private String instructor;
 	private String schedule;
-
+	private String price;
 	public Course() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-
-	public Course(long id, String title, String description, String schedule) {
+	public Course(String id, String course_code, String course_title, String instructor, String schedule,
+			String price) {
 		super();
 		this.id = id;
-		this.title = title;
-		this.description = description;
+		this.course_code = course_code;
+		this.course_title = course_title;
+		this.instructor = instructor;
 		this.schedule = schedule;
+		this.price = price;
 	}
-
-	public long getId() {
+	public String getId() {
 		return id;
 	}
-
-	public void setId(long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
-
-	public String getTitle() {
-		return title;
+	public String getCourse_code() {
+		return course_code;
 	}
-
-	public void setTitle(String title) {
-		this.title = title;
+	public void setCourse_code(String course_code) {
+		this.course_code = course_code;
 	}
-
-	public String getDescription() {
-		return description;
+	public String getCourse_title() {
+		return course_title;
 	}
-
-	public void setDescription(String description) {
-		this.description = description;
+	public void setCourse_title(String course_title) {
+		this.course_title = course_title;
 	}
-
+	public String getInstructor() {
+		return instructor;
+	}
+	public void setInstructor(String instructor) {
+		this.instructor = instructor;
+	}
 	public String getSchedule() {
 		return schedule;
 	}
-
 	public void setSchedule(String schedule) {
 		this.schedule = schedule;
 	}
-
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
 	@Override
 	public String toString() {
-		return "Course [id=" + id + ", title=" + title + ", description=" + description + ", schedule=" + schedule
-				+ "]";
+		return "Course [id=" + id + ", course_code=" + course_code + ", course_title=" + course_title + ", instructor="
+				+ instructor + ", schedule=" + schedule + ", price=" + price + "]";
 	}
+	
+	
 	
 }

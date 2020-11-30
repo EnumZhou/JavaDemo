@@ -21,4 +21,4 @@ export const UploadView = () => {
                   <AgTable data={state}/>
              </>
     );
-}
+};

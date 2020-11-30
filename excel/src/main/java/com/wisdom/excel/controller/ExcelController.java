@@ -2,6 +2,7 @@ package com.wisdom.excel.controller;
 
 
 
+import java.io.IOException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,14 +23,14 @@ public class ExcelController {
 	
 	
 	@GetMapping("/courses")
-	public List<Course> getCourses() {
-		System.out.println(cs.getCourses());
-		return cs.getCourses();
+	public String getCourses() throws IOException {
+		cs.getCourses();
+		return "Ok";
 	}
 	
-	@GetMapping("/test")
-	public Course index() {
-		return cs.getCourses().get(0);
+	@GetMapping("/students")
+	public String getStudents() {
+		return "Students Info Got";
 	}
 	
 }
