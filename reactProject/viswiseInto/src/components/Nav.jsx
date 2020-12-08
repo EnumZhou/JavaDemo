@@ -30,25 +30,37 @@ export const Nav = () => {
                     <ul className="nav navbar-nav navbar-right">
 
                         <li>
-                            <NavLink to="/about" >
-                                About
+                            <NavLink to="/home" >
+                                Home
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/courses">
-                                Courses
+                                About
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/testimonials">
-                                Testimonials
+                            <NavLink to="/services">
+                                Services
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/team">
-                                Team
+                            <NavLink to="/programs">
+                                Programs
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to="/community">
+                                Community
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to="/blog">
+                                Blog
                             </NavLink>
                         </li>
 

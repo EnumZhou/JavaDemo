@@ -10,17 +10,22 @@ import {About} from "./components/about";
 import {Contact} from "./components/contact";
 import Testimonials from "./components/testimonials";
 import Team from "./components/Team";
+import Services from "./components/services";
+import {Home} from "./components/Home";
 
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
           <CustomizedApp>
               <Switch>
+                  <Route path='/home' component={Home}/>
                   <Route path='/about' component={About}/>
+                  <Route path='/services' Componet={Services}/>
+                  <Route path='/programs' component={Courses} />
+                  <Route path='/community' component={Testimonials} />
+                  <Route path='/blog' component={Team} />
+
                   <Route path='/contact' component={Contact} />
-                  <Route path='/courses' component={Courses} />
-                  <Route path='/testimonials' component={Testimonials} />
-                  <Route path='/team' component={Team} />
 
                   <Route path='*'>
                       <Redirect to='/about' />
