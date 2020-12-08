@@ -54,9 +54,9 @@ function Footer() {
                     <div className="col-md-4 col-lg-3">
                         <Widget title="Contact Us">
                             <address>
-                                2005 Stokes Isle Apartment. 896, Washington 10010, USA <br/>
+                                Address: Viswise Company, 5th Ave, Manhattan,NY,10128 <br/>
                                 https://iwisdom.org <br/>
-                                (+68) 120034509
+                                Wechat:bassli88
                             </address>
                         </Widget>
                     </div>

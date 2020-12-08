@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7dfd72c-bc98-4af8-b9f9-217e9cbcaea2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/service/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/service/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/service/03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../viswiseInto/src/components/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../viswiseInto/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../viswiseInto/src/components/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../viswiseInto/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../viswiseInto/src/components/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../viswiseInto/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../viswiseInto/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/about-2-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/about-2-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/blog/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/blog/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/page-header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/page-header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Contact/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,10 +55,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\OneDrive\Desktop\Yinan Zhou\JavaDemo\reactProject\businex\src\assets\img" />
       <recent name="C:\Users\angel\OneDrive\Desktop\Yinan Zhou\JavaDemo\reactProject\businex\src\assets\img\blog" />
       <recent name="C:\Users\angel\OneDrive\Desktop\Yinan Zhou\JavaDemo\reactProject\businex\src\assets\img\team" />
       <recent name="C:\Users\angel\OneDrive\Desktop\Yinan Zhou\JavaDemo\reactProject\businex\src\assets\img\service\details" />
-      <recent name="C:\Users\angel\OneDrive\Desktop\Yinan Zhou\JavaDemo\reactProject\businex\src\assets\img" />
       <recent name="C:\Users\angel\OneDrive\Desktop\Yinan Zhou\JavaDemo\reactProject\businex\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -77,6 +83,7 @@
       <workItem from="1607186824616" duration="8835000" />
       <workItem from="1607205184432" duration="126000" />
       <workItem from="1607358244647" duration="14461000" />
+      <workItem from="1607462353384" duration="3268000" />
     </task>
     <servers />
   </component>
