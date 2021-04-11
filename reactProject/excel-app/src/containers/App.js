@@ -6,7 +6,7 @@ export const App = () => {
     return (
         <>
             <h1>
-                Excel Reader System
+                Excel Sales Report Reader System
             </h1>
             <UploadView />
         </>

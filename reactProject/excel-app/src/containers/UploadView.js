@@ -8,7 +8,7 @@ export const UploadView = () => {
 
     return (
             <>
-                <div>Choose an Excel file</div>
+                <div>Choose Sales Report Excel</div>
                 <input type="file"
                        name ="Choose a excel file"
                        onChange={(e) =>{

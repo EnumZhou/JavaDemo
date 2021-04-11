@@ -5,22 +5,26 @@ import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 import {AppConstant} from "../AppConstants/AppConstant";
 
 export const AgTable = (props) => {
-
-    // const handleChange =(params) => {
-    //     console.log(params);
-    // };
     return (
-        <div className="ag-theme-alpine" style={ { height: 400, width: 800 } }>
-            {/*{JSON.stringify(props.data.length===0)}*/}
+        <div className="ag-theme-alpine" style={ { height: 800, width: 2400 } }>
+            {/*{JSON.stringify(props.data)}*/}
             <AgGridReact
                 rowData={props.data}
-                rowSelection={'multiple'}
+                // rowSelection={'multiple'}
                 // onGridReady={handleChange}
             >
-                <AgGridColumn field={AppConstant.nameField} sortable={true} filter={true} checkboxSelection={true} />
-                <AgGridColumn field={AppConstant.ageField} sortable={true} filter={true} />
-                <AgGridColumn field={AppConstant.genderField} sortable={true} filter={true} />
-                <AgGridColumn field={AppConstant.courseField} sortable={true} filter={true} />
+                <AgGridColumn field={AppConstant.dateField} sortable={true} filter={true} resizable={true} />
+                <AgGridColumn field={AppConstant.usernameField} sortable={true} filter={true} resizable={true} />
+                <AgGridColumn field={AppConstant.emailField} sortable={true} filter={true} resizable={true} />
+                <AgGridColumn field={AppConstant.countryField} sortable={true} filter={true} resizable={true}/>
+                <AgGridColumn field={AppConstant.productField} sortable={true} filter={true} resizable={true}/>
+                <AgGridColumn field={AppConstant.invoiceField} sortable={true} filter={true} resizable={true}/>
+                <AgGridColumn field={AppConstant.couponField} sortable={true} filter={true} resizable={true} />
+                <AgGridColumn field={AppConstant.transactionIdField} sortable={true} filter={true}resizable={true}/>
+                <AgGridColumn field={AppConstant.amountField} sortable={true} filter={true} resizable={true}/>
+                <AgGridColumn field={AppConstant.product_priceField} sortable={true} filter={true} resizable={true}/>
+                <AgGridColumn field={AppConstant.product_typeField} sortable={true} filter={true} resizable={true}/>
+                <AgGridColumn field={AppConstant.sales_feeField} sortable={true} filter={true} resizable={true}/>
             </AgGridReact>
         </div>
     );
