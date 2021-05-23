@@ -8,7 +8,7 @@ export const UploadView = () => {
 
     return (
             <>
-                <div>Choose Sales Report Excel</div>
+                <div>Import Sales Report Excel</div>
                 <input type="file"
                        name ="Choose a excel file"
                        onChange={(e) =>{
@@ -17,7 +17,7 @@ export const UploadView = () => {
                            promise.then(d => setState(d));
                        }}/>
 
-                  <h2>Table</h2>
+                  <h2>Sales Report Table</h2>
                   <AgTable data={state}/>
              </>
     );
