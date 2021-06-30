@@ -7,5 +7,5 @@ import com.viswise.chinesecoffeeclub.beans.Course;
 
 @EnableJpaRepositories
 public interface courseDao extends JpaRepository<Course, Integer> {
-
+	
 }

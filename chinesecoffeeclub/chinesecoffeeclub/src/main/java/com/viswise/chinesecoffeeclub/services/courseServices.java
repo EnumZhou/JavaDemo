@@ -14,7 +14,10 @@ public class courseServices {
 	private courseDao cd;
 	
 	public List<Course> getAll() {
-		System.out.println(cd.findAll());
 		return cd.findAll();
+	}
+	
+	public void postCourse(Course course) {
+		cd.save(course);
 	}
 }
